@@ -4,8 +4,8 @@
 
 ```
 POST /brand/add -> github.com/provider-go/brand/api.CreateUser
-POST /user/delete -> github.com/provider-go/user/api.DeleteUser
-POST /user/list -> github.com/provider-go/user/api.ListUser
-POST /user/view -> github.com/provider-go/user/api.ViewUser
+POST /brand/delete -> github.com/provider-go/user/api.DeleteUser
+POST /brand/list -> github.com/provider-go/user/api.ListUser
+POST /brand/view -> github.com/provider-go/user/api.ViewUser
 
 ```

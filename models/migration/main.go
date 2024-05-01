@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/provider-go/brand/models"
+	"github.com/provider-go/pkg/go-logger"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

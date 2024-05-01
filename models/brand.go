@@ -7,8 +7,8 @@ import (
 
 type Brand struct {
 	Id         int32     `json:"id" gorm:"auto_increment;primary_key;comment:'主键'"`
-	BrandName  string    `json:"brandName" gorm:"column:brand_name;type:varchar(30);not null;default:'';comment:品牌名称"`
-	BrandPic   string    `json:"brandPic" gorm:"column:brand_pic;type:varchar(20);not null;default:'';comment:图片路径"`
+	BrandName  string    `json:"brandName" gorm:"column:brand_name;type:varchar(50);not null;default:'';comment:品牌名称"`
+	BrandPic   string    `json:"brandPic" gorm:"column:brand_pic;type:varchar(200);not null;default:'';comment:图片路径"`
 	Brief      string    `json:"brief" gorm:"column:brief;type:varchar(255);not null;default:'';comment:简要描述"`
 	Content    string    `json:"content" gorm:"column:content;type:text;not null;comment:内容"`
 	FirstChar  string    `json:"firstChar" gorm:"column:first_char;type:char(1);default:null;comment:品牌首字母"`
